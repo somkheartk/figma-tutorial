@@ -20,7 +20,7 @@
 
 ### การเพิ่มไฟล์
 1. ตั้งชื่อไฟล์ที่สื่อความหมาย
-2. ใช้ lowercase และ hyphens (เช่น `figma-interface-01.png`)
+2. ใช้ kebab-case (lowercase และ hyphens) เช่น `figma-interface-01.png`
 3. จัดเก็บในโฟลเดอร์ย่อยตามประเภท
 
 ### โครงสร้างแนะนำ
@@ -35,6 +35,12 @@ assets/
 ```
 
 ### การอ้างอิงในเอกสาร
+จากไฟล์เอกสารหลัก (README.md):
+```markdown
+![Alt text](assets/images/example.png)
+```
+
+จากไฟล์ใน docs/ หรือ examples/:
 ```markdown
 ![Alt text](../assets/images/example.png)
 ```
